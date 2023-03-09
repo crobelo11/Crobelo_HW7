@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Page 2</title>
+    <link rel="stylesheet" href="./css/stylesheet.css"/>
+</head>
+<body>
+  <header><h1>Survey Page 2</h1></header>
+  <form>
+    <fieldset>
+      <label for="female">
+        <input type="radio" id="female" name="gender" value="female"> Female 
+    </label>
+    
+    <label for="male">
+        <input type="radio" id="male" name="gender" value="male"> Male
+    </label>
+
+    <label for="non-binary">
+    <input type="radio" id="non-binary" name="gender" value="non-binary">Non-binary
+    </label>  
+
+    <label for="rather-not-say">
+      <input type="radio" id="rather-not-say" name="gender" value="rather-not-say"> Rather Not Say
+    </label>
+    <div></div>  
+    <label for="School-Year"> Please Choose Your Year in School: 
+        <select name="School-Year" id="School-Year">
+          <option value="Freshman"> Freshman </option>
+          <option value="Sophmore"> Sophmore </option>
+          <option value="Junior"> Junior </option>
+          <option value="Senior">Senior</option>
+        </select>     
+      </label>
+    <div></div>
+    <fieldset>
+      <legend>Choose which Tippie major applies to you</legend>
+        <label for="finance">
+          <input type="checkbox" id="finance" name="major" value ="finance"> Finance
+        </label>    
+    
+        <label for="marketing">
+          <input type="checkbox" id="marketing" name="major" value="marketing"> Marketing
+        </label>
+    
+        <label for="accounting">
+          <input type="checkbox" id="accounting" name="major" value="accounting"> Accounting
+        </label>
+
+        <label>
+          <input type="checkbox" id="bais" name="major" value="bais"> BAIS
+        </label>
+
+        <label>
+          <input type="checkbox" id="management" name="major" value="management"> Management
+        </label>
+
+        <label>
+          <input type="checkbox" id="economics" name="major" value="economics"> Economics
+        </label>
+    </fieldset>
+  </fieldset>
+  </form>
+<div></div>
+  <button onclick="window.location.href='./thankyou-page.html';">
+    Proceed to Next Page
+</button>
+<p>Page 2 of 2</p>
+</body>
+</html>
